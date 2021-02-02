@@ -163,7 +163,7 @@ for (i in sample_names){
   print(plt)
   cat("\n\n")
 
-  name<- paste0("Clustering_Figures.dir/DimPlotTSNE_", i, ".eps")
+  name<- paste0("Clustering_Figures.dir/tSNE_", i, ".eps")
   postscript(name)
   print(plt)
   dev.off()
@@ -186,7 +186,7 @@ for (i in sample_names){
   print(plt)
   cat("\n\n")
 
-  name<- paste0("Clustering_Figures.dir/DimPlotUMAP_", i, ".eps")
+  name<- paste0("Clustering_Figures.dir/UMAP_", i, ".eps")
   postscript(name)
   print(plt)
   dev.off()
