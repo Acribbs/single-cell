@@ -35,7 +35,7 @@ data_harmony <- data.integrated %>%
   RunUMAP(reduction = "harmony", dims = dims.use) %>% 
   RunTSNE(reduction = "harmony", dims = dims.use) %>% 
   FindNeighbors(reduction = "harmony", dims = dims.use) %>% 
-  FindClusters(resolution = ) %>% 
+  FindClusters(resolution = resolution) %>% 
   identity()
 
 
